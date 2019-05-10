@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "name": "gatsby-source-gitlab-example",
+  "description": "Example site for gatsby source gitlab plugin.",
+  "author": "Byurhan Beyzat <byurhanbeyzat@gmail.com>",
+  "repository": "https://github.com/byurhanbeyzat/gatsby-source-gitlab-example",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "format": "prettier --write {gatsby-*.js,src}/**/**/*.{js,jsx,scss}"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "gatsby": "^2.4.2",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-root-import": "^2.0.5",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.37",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-source-gitlab": "^1.0.0",
+    "gatsby-transformer-sharp": "^2.1.19",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0",
+    "tailwindcss": "^0.7.4"
+  }
+}

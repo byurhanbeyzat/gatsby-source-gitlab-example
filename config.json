@@ -1,0 +1,13 @@
+{
+  "siteMetadata": {
+    "title": "Gatsby source — GitLab"
+  },
+  "siteManifest": {
+    "start_url": "/",
+    "display": "minimal-ui",
+    "name": "Gatsby site for source plguin example.",
+    "short_name": "gatsby-gitlab",
+    "background_color": "#663399",
+    "theme_color": "#663399"
+  }
+}
