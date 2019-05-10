@@ -12,7 +12,6 @@ const Index = () => {
 
   return (
     <Layout>
-      <div className="bg-img" />
       <AboutSection data={userData} />
       <ProjectsSection data={projectsData} />
     </Layout>
@@ -29,6 +28,15 @@ const query = graphql`
       username
       avatar
       bio
+      website
+      location
+      profile_url
+      organization
+      socialMedia {
+        skype
+        twitter
+        linkedin
+      }
     }
     allGitlabProjects {
       edges {
